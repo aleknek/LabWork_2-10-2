@@ -7,6 +7,8 @@ public class Main {
         Byte b = 10;
         Integer i = 50;
 
+        assert compute(b, i) == 0;
+
         System.out.println(compute(b, i));
     }
 
